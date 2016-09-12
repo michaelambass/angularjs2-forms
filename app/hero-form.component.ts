@@ -3,7 +3,8 @@ import { Hero }    from './hero';
 
 @Component({
   selector: 'hero-form',
-  templateUrl: 'app/hero-form.component.html'
+  templateUrl: 'app/hero-form.component.html',
+  styleUrls: ['app/hero-form.component.css']
 })
 
 export class HeroFormComponent {
